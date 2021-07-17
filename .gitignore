@@ -1,0 +1,16 @@
+.idea
+.vscode
+.DS_Store
+
+venv
+
+.pytest_cache
+*.pyc
+__pycache__/
+
+.coverage
+
+dist/
+*.egg-info
+
+pgdata/
