@@ -1,0 +1,37 @@
+<div>
+  <div>
+    <label for="fileSelector">Choose your invoice: </label>
+    <input (change)="onFileSelected($event)" #fileInput type="file" id="fileSelector" accept=".pdf,.png,.jpg" />
+  </div>
+  <div><button type="button" (click)="upload()">Upload</button></div>
+  <div>
+    <button type="button" (click)="save()">Save Invoice</button>
+  </div>
+  <div *ngIf="hasData">
+    <div>
+      <div>Issuer: {{ invoiceData.info.issuer_name }}</div>
+      <div *ngIf="invoiceData.info.issuer_address">Issuer Address: {{ invoiceData.info.issuer_address }}</div>
+      <div *ngIf="invoiceData.info.recipient_name">Recipient: {{ invoiceData.info.recipient_name }}</div>
+      <div *ngIf="invoiceData.info.document_date">Document Date: {{ invoiceData.info.document_date }}</div>
+      <div *ngIf="invoiceData.info.payment_date">Payment Date: {{ invoiceData.info.payment_date }}</div>
+      <div *ngIf="invoiceData.info.due_date">Due Date: {{ invoiceData.info.due_date }}</div>
+      <div>Total: {{ invoiceData.info.amount_total }} {{ invoiceData.info.currency }}</div>
+      <div *ngIf="invoiceData.info.amount_paid">Paid: {{ invoiceData.info.amount_paid }} {{ invoiceData.info.currency }}</div>
+      <div *ngIf="invoiceData.info.amount_tax">Tax: {{ invoiceData.info.amount_tax }} {{ invoiceData.info.currency }}</div>
+      <div *ngIf="invoiceData.info.amount_sum">SubTotal Sum: {{ invoiceData.info.amount_sum }} {{ invoiceData.info.currency }}</div>
+      <div *ngIf="invoiceData.info.num_items">Number of Items: {{ invoiceData.info.num_items }}</div>
+    </div>
+    <div>
+      <table>
+        <tr>
+          <th>Item Name</th>
+          <th>SubTotal</th>
+        </tr>
+        <tr *ngFor='let item of invoiceData.items'>
+          <td>{{ item.item_name }}</td>
+          <td>{{ item.sub_total }} {{ invoiceData.info.currency }}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

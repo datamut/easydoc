@@ -1,0 +1,12 @@
+<div *ngIf="statsService.dailyExpense">
+  <table>
+    <tr>
+      <th>Day</th>
+      <th>Total</th>
+    </tr>
+    <tr *ngFor="let expense of statsService.dailyExpense">
+      <td>{{ expense.by_time }}</td>
+      <td>{{ expense.total }}</td>
+    </tr>
+  </table>
+</div>
