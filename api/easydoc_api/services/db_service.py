@@ -1,15 +1,16 @@
+from collections import namedtuple
 from typing import List
+from datetime import date
 
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, or_, func
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import sessionmaker, Session
 
 from easydoc_api.models.models import InvoiceInfo, InvoiceItem
-from easydoc_api.models.db_models import InvoiceInfoOrm, InvoiceItemOrm
+from easydoc_api.models.db_models import InvoiceInfoOrm, InvoiceItemOrm, ExpenseByTime
 
 
 class DBService:
-
     _engine: Engine = None
 
     def __init__(self, host: str, user: str, password: str, port: int, db_name: str):
@@ -31,3 +32,26 @@ class DBService:
             for item in invoice_items:
                 session.add(InvoiceItemOrm(**item.dict()))
             session.commit()
+
+    def get_daily_expense(self, start_time: date, end_time: date):
+        """
+        Statistic for getting the daily expense. As only document_date seems to be available for every invoice,
+        use document_date as the time for now. Ideally this time should be the actual payment time.
+
+        This expense is for already paid invoice, unpaid are not considered (again, use amount_due to indicate for now).
+
+        :param start_time: The statistic start time, inclusive
+        :param end_time: The statistic end time, inclusive
+        :return: The stats data as a list
+        """
+        with sessionmaker(self.engine)() as session:
+            cursor = session.execute(('SELECT '
+                                      'document_date as by_time, sum(amount_total) as total '
+                                      'FROM invoice_info '
+                                      'WHERE '
+                                      '(amount_due IS null OR amount_due = 0) '
+                                      'and document_date >= :start_time '
+                                      'and document_date <= :end_time '
+                                      'GROUP BY document_date'),
+                                     {'start_time': start_time, 'end_time': end_time})
+            return [ExpenseByTime(by_time=it[0], total=it[1]) for it in cursor]

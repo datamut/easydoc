@@ -1,3 +1,6 @@
+from datetime import date
+
+from pydantic import BaseModel
 from sqlalchemy import Column, String, CHAR, Date, NUMERIC, INTEGER, TIMESTAMP, BOOLEAN, ForeignKey, Sequence, Identity
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.sql import func
@@ -39,6 +42,11 @@ class InvoiceItemOrm(Base):
     create_date = Column(TIMESTAMP, nullable=False, server_default=func.now())
     update_date = Column(TIMESTAMP, nullable=False, server_onupdate=func.now(), server_default=func.now())
     deleted = Column(BOOLEAN, nullable=False, server_default='false')
+
+
+class ExpenseByTime(BaseModel):
+    by_time: date
+    total: float
 
 
 if __name__ == '__main__':
