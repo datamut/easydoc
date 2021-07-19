@@ -4,5 +4,8 @@ requests==2.26.0
 sypht==0.5.9
 python-multipart==0.0.5
 sqlalchemy==1.4.21
-psycopg2-binary==2.9.1
+## psycopg2-binary for mac local only
+psycopg2==2.9
 starlette==0.14.2
+## install the python version for local test/demo
+uvicorn==0.14.0

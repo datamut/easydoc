@@ -3,7 +3,6 @@ from datetime import date
 
 from fastapi import FastAPI, UploadFile, File
 from fastapi.responses import RedirectResponse
-from starlette.middleware.cors import CORSMiddleware
 
 from easydoc_api.products.invoice.invoice_parser import parse_invoice
 from easydoc_api.models.models import Invoice, InvoiceInfo, InvoiceItem
@@ -12,20 +11,10 @@ from easydoc_api.services.ai_service import AIService
 from easydoc_api.services.db_service import DBService
 from easydoc_api.models.api_models import BaseResponse, ResponseStatus
 from easydoc_api.config.config import app_config
+from easydoc_api.settings import app_settings
 
 app = FastAPI()
-
-origins = [
-    'http://localhost:4200'
-]
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins,
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+app_settings(app)
 
 ai_service = AIService(app_config.ai_client_id, app_config.ai_client_secret)
 db_service = DBService(**app_config.db_config.dict())
