@@ -5,10 +5,10 @@ services:
       context: ./api
       dockerfile: Dockerfile
     ports:
-      - "8000:8000"
+      - "8087:8087"
     depends_on:
       - "db"
-    command: ["uvicorn", "easydoc_api.app:app", "--host=0.0.0.0", "--port=8000", "--reload"]
+    command: ["uvicorn", "easydoc_api.app:app", "--host=0.0.0.0", "--port=8087", "--reload"]
     environment:
       DB_HOST: db
       DB_PORT: 5432
@@ -28,8 +28,6 @@ services:
       - "db"
       - "api"
     command: ["ng", "serve", "--host=0.0.0.0"]  # for local test/demo
-    environment:
-      API_URL: http://localhost:8000
 
   db:
     build:

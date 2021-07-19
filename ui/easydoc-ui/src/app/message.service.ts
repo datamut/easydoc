@@ -11,7 +11,7 @@ export class MessageService {
     this.message = message;
     setTimeout(() => {
       this.message = null;
-    }, 5000);
+    }, 10000);
   }
 
 }
