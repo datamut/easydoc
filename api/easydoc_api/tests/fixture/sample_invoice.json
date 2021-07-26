@@ -1,0 +1,1401 @@
+{
+    "issuer.name": "JS Design",
+    "recipient.billingAddress": "100 Mega St, Chippendale NSW 2008",
+    "issuer.SIRETno": null,
+    "document.referenceNo": "J76455",
+    "recipient.serviceAddress": "100 Mega St, Chippendale NSW 2008",
+    "issuer.email": null,
+    "bank.accountName": "Design",
+    "invoice.subTotal": "330.00",
+    "document.supplierABN": "16627246039",
+    "invoice.tax": "33.00",
+    "invoice.purchaseOrderNo": null,
+    "invoice.creditCardDigits": null,
+    "recipient.referenceNo": null,
+    "issuer.businessNo": "16627246039",
+    "invoice.lineitems": [{
+        "types": [{
+            "score": 1,
+            "type": "sypht.invoice.lineitems.id"
+        }, {
+            "score": 1,
+            "type": "sypht.invoice.lineitems.quantity"
+        }, {
+            "score": 1,
+            "type": "sypht.invoice.lineitems.unitPrice"
+        }, {
+            "score": 1,
+            "type": "sypht.invoice.lineitems.subTotal"
+        }],
+        "headers": [{
+            "type": "table.label",
+            "norm": "item",
+            "text": "Item",
+            "tokens": ["Item"],
+            "page_idx": 0,
+            "bounds": {
+                "pageNum": 1,
+                "pageTokenIds": [53],
+                "tokenIds": [53],
+                "topLeft": {
+                    "x": 0.07490196078431373,
+                    "y": 0.3375757575757576
+                },
+                "bottomRight": {
+                    "x": 0.10352941176470588,
+                    "y": 0.3481818181818182
+                }
+            },
+            "id": "table.label.head:item:0:53"
+        }, {
+            "type": "table.label",
+            "norm": "quantity",
+            "text": "Quantity",
+            "tokens": ["Quantity"],
+            "page_idx": 0,
+            "bounds": {
+                "pageNum": 1,
+                "pageTokenIds": [55],
+                "tokenIds": [55],
+                "topLeft": {
+                    "x": 0.600392156862745,
+                    "y": 0.33636363636363636
+                },
+                "bottomRight": {
+                    "x": 0.66,
+                    "y": 0.34939393939393937
+                }
+            },
+            "id": "table.label.head:quantity:0:55"
+        }, {
+            "type": "table.label",
+            "norm": "rate",
+            "text": "Rate",
+            "tokens": ["Rate"],
+            "page_idx": 0,
+            "bounds": {
+                "pageNum": 1,
+                "pageTokenIds": [57],
+                "tokenIds": [57],
+                "topLeft": {
+                    "x": 0.768235294117647,
+                    "y": 0.3372727272727273
+                },
+                "bottomRight": {
+                    "x": 0.8,
+                    "y": 0.3472727272727273
+                }
+            },
+            "id": "table.label.head:rate:0:57"
+        }, {
+            "type": "table.label",
+            "norm": "amount",
+            "text": "Amount",
+            "tokens": ["Amount"],
+            "page_idx": 0,
+            "bounds": {
+                "pageNum": 1,
+                "pageTokenIds": [59],
+                "tokenIds": [59],
+                "topLeft": {
+                    "x": 0.8705882352941177,
+                    "y": 0.3375757575757576
+                },
+                "bottomRight": {
+                    "x": 0.9254901960784314,
+                    "y": 0.3481818181818182
+                }
+            },
+            "id": "table.label.head:amount:0:59"
+        }],
+        "cells": [
+            [{
+                "type": "table.value",
+                "norm": "banner_design",
+                "text": "Banner design",
+                "tokens": ["Banner", "design"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [69, 70],
+                    "tokenIds": [69, 70],
+                    "topLeft": {
+                        "x": 0.07411764705882352,
+                        "y": 0.36848484848484847
+                    },
+                    "bottomRight": {
+                        "x": 0.18549019607843137,
+                        "y": 0.38242424242424244
+                    }
+                }
+            }, {
+                "type": "table.value",
+                "norm": "1",
+                "text": "1",
+                "tokens": ["1"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [61],
+                    "tokenIds": [61],
+                    "topLeft": {
+                        "x": 0.6011764705882353,
+                        "y": 0.3709090909090909
+                    },
+                    "bottomRight": {
+                        "x": 0.6062745098039216,
+                        "y": 0.3809090909090909
+                    }
+                }
+            }, {
+                "type": "table.value",
+                "norm": "$_199.00",
+                "text": "$199.00",
+                "tokens": ["$", "199.00"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [63, 64],
+                    "tokenIds": [63, 64],
+                    "topLeft": {
+                        "x": 0.7427450980392157,
+                        "y": 0.3703030303030303
+                    },
+                    "bottomRight": {
+                        "x": 0.8007843137254902,
+                        "y": 0.38242424242424244
+                    }
+                }
+            }, {
+                "type": "table.value",
+                "norm": "$_199.00",
+                "text": "$199.00",
+                "tokens": ["$", "199.00"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [66, 67],
+                    "tokenIds": [66, 67],
+                    "topLeft": {
+                        "x": 0.8682352941176471,
+                        "y": 0.3706060606060606
+                    },
+                    "bottomRight": {
+                        "x": 0.9262745098039216,
+                        "y": 0.38303030303030305
+                    }
+                }
+            }],
+            [{
+                "type": "table.value",
+                "norm": "banner_print",
+                "text": "Banner print",
+                "tokens": ["Banner", "print"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [72, 73],
+                    "tokenIds": [72, 73],
+                    "topLeft": {
+                        "x": 0.07411764705882352,
+                        "y": 0.3896969696969697
+                    },
+                    "bottomRight": {
+                        "x": 0.16980392156862745,
+                        "y": 0.4033333333333333
+                    }
+                }
+            }, {
+                "type": "table.value",
+                "norm": "1",
+                "text": "1",
+                "tokens": ["1"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [75],
+                    "tokenIds": [75],
+                    "topLeft": {
+                        "x": 0.6015686274509804,
+                        "y": 0.3924242424242424
+                    },
+                    "bottomRight": {
+                        "x": 0.6058823529411764,
+                        "y": 0.4024242424242424
+                    }
+                }
+            }, {
+                "type": "table.value",
+                "norm": "$_76.00",
+                "text": "$76.00",
+                "tokens": ["$", "76.00"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [77, 78],
+                    "tokenIds": [77, 78],
+                    "topLeft": {
+                        "x": 0.7529411764705882,
+                        "y": 0.39212121212121215
+                    },
+                    "bottomRight": {
+                        "x": 0.8003921568627451,
+                        "y": 0.40393939393939393
+                    }
+                }
+            }, {
+                "type": "table.value",
+                "norm": "$_76.00",
+                "text": "$76.00",
+                "tokens": ["$", "76.00"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [80, 81],
+                    "tokenIds": [80, 81],
+                    "topLeft": {
+                        "x": 0.8784313725490196,
+                        "y": 0.39212121212121215
+                    },
+                    "bottomRight": {
+                        "x": 0.9258823529411765,
+                        "y": 0.40393939393939393
+                    }
+                }
+            }],
+            [{
+                "type": "table.value",
+                "norm": "expedited_delivery",
+                "text": "Expedited delivery",
+                "tokens": ["Expedited", "delivery"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [83, 84],
+                    "tokenIds": [83, 84],
+                    "topLeft": {
+                        "x": 0.07450980392156863,
+                        "y": 0.41363636363636364
+                    },
+                    "bottomRight": {
+                        "x": 0.2164705882352941,
+                        "y": 0.42757575757575755
+                    }
+                }
+            }, {
+                "type": "table.value",
+                "norm": "1",
+                "text": "1",
+                "tokens": ["1"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [86],
+                    "tokenIds": [86],
+                    "topLeft": {
+                        "x": 0.6019607843137255,
+                        "y": 0.41484848484848486
+                    },
+                    "bottomRight": {
+                        "x": 0.6054901960784314,
+                        "y": 0.42424242424242425
+                    }
+                }
+            }, {
+                "type": "table.value",
+                "norm": "$_55.00",
+                "text": "$55.00",
+                "tokens": ["$", "55.00"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [88, 89],
+                    "tokenIds": [88, 89],
+                    "topLeft": {
+                        "x": 0.7529411764705882,
+                        "y": 0.41393939393939394
+                    },
+                    "bottomRight": {
+                        "x": 0.8003921568627451,
+                        "y": 0.4257575757575758
+                    }
+                }
+            }, {
+                "type": "table.value",
+                "norm": "$_55.00",
+                "text": "$55.00",
+                "tokens": ["$", "55.00"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [91, 92],
+                    "tokenIds": [91, 92],
+                    "topLeft": {
+                        "x": 0.8784313725490196,
+                        "y": 0.41393939393939394
+                    },
+                    "bottomRight": {
+                        "x": 0.9258823529411765,
+                        "y": 0.4257575757575758
+                    }
+                }
+            }]
+        ]
+    }],
+    "recipient.name": "Sypht Pty Ltd.",
+    "invoice.lineitems:2": {
+        "type": "list",
+        "items": [{
+            "type": "group",
+            "components": {
+                "column": {
+                    "type": "list",
+                    "items": [{
+                        "type": "group",
+                        "components": {
+                            "label": {
+                                "type": "tokens",
+                                "text": "Item",
+                                "tokens": [{
+                                    "type": "token",
+                                    "bounds": {
+                                        "type": "bounds",
+                                        "pageNum": 1,
+                                        "topLeft": {
+                                            "x": 0.07490196078431373,
+                                            "y": 0.3375757575757576
+                                        },
+                                        "bottomRight": {
+                                            "x": 0.10352941176470588,
+                                            "y": 0.3481818181818182
+                                        }
+                                    },
+                                    "text": "Item",
+                                    "textWithWhitespace": "Item",
+                                    "pageTokenId": 53,
+                                    "tokenId": 53
+                                }],
+                                "bounds": {
+                                    "pageNum": 1,
+                                    "pageTokenIds": [53],
+                                    "tokenIds": [53],
+                                    "topLeft": {
+                                        "x": 0.07490196078431373,
+                                        "y": 0.3375757575757576
+                                    },
+                                    "bottomRight": {
+                                        "x": 0.10352941176470588,
+                                        "y": 0.3481818181818182
+                                    }
+                                }
+                            },
+                            "value": {
+                                "type": "list",
+                                "items": [{
+                                    "type": "tokens",
+                                    "text": "Banner design",
+                                    "tokens": [{
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.07411764705882352,
+                                                "y": 0.36848484848484847
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.12901960784313726,
+                                                "y": 0.38151515151515153
+                                            }
+                                        },
+                                        "text": "Banner",
+                                        "textWithWhitespace": "Banner ",
+                                        "pageTokenId": 69,
+                                        "tokenId": 69
+                                    }, {
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.13450980392156864,
+                                                "y": 0.3693939393939394
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.18549019607843137,
+                                                "y": 0.38242424242424244
+                                            }
+                                        },
+                                        "text": "design",
+                                        "textWithWhitespace": "design",
+                                        "pageTokenId": 70,
+                                        "tokenId": 70
+                                    }],
+                                    "bounds": {
+                                        "pageNum": 1,
+                                        "pageTokenIds": [69, 70],
+                                        "tokenIds": [69, 70],
+                                        "topLeft": {
+                                            "x": 0.07411764705882352,
+                                            "y": 0.36848484848484847
+                                        },
+                                        "bottomRight": {
+                                            "x": 0.18549019607843137,
+                                            "y": 0.38242424242424244
+                                        }
+                                    }
+                                }, {
+                                    "type": "tokens",
+                                    "text": "Banner print",
+                                    "tokens": [{
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.07411764705882352,
+                                                "y": 0.3896969696969697
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.12901960784313726,
+                                                "y": 0.4027272727272727
+                                            }
+                                        },
+                                        "text": "Banner",
+                                        "textWithWhitespace": "Banner ",
+                                        "pageTokenId": 72,
+                                        "tokenId": 72
+                                    }, {
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.13450980392156864,
+                                                "y": 0.3906060606060606
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.16980392156862745,
+                                                "y": 0.4033333333333333
+                                            }
+                                        },
+                                        "text": "print",
+                                        "textWithWhitespace": "print",
+                                        "pageTokenId": 73,
+                                        "tokenId": 73
+                                    }],
+                                    "bounds": {
+                                        "pageNum": 1,
+                                        "pageTokenIds": [72, 73],
+                                        "tokenIds": [72, 73],
+                                        "topLeft": {
+                                            "x": 0.07411764705882352,
+                                            "y": 0.3896969696969697
+                                        },
+                                        "bottomRight": {
+                                            "x": 0.16980392156862745,
+                                            "y": 0.4033333333333333
+                                        }
+                                    }
+                                }, {
+                                    "type": "tokens",
+                                    "text": "Expedited delivery",
+                                    "tokens": [{
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.07450980392156863,
+                                                "y": 0.41363636363636364
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.14980392156862746,
+                                                "y": 0.42757575757575755
+                                            }
+                                        },
+                                        "text": "Expedited",
+                                        "textWithWhitespace": "Expedited ",
+                                        "pageTokenId": 83,
+                                        "tokenId": 83
+                                    }, {
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.156078431372549,
+                                                "y": 0.41363636363636364
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.2164705882352941,
+                                                "y": 0.42757575757575755
+                                            }
+                                        },
+                                        "text": "delivery",
+                                        "textWithWhitespace": "delivery",
+                                        "pageTokenId": 84,
+                                        "tokenId": 84
+                                    }],
+                                    "bounds": {
+                                        "pageNum": 1,
+                                        "pageTokenIds": [83, 84],
+                                        "tokenIds": [83, 84],
+                                        "topLeft": {
+                                            "x": 0.07450980392156863,
+                                            "y": 0.41363636363636364
+                                        },
+                                        "bottomRight": {
+                                            "x": 0.2164705882352941,
+                                            "y": 0.42757575757575755
+                                        }
+                                    }
+                                }]
+                            },
+                            "category": {
+                                "type": "enum",
+                                "options": ["category.id", "category.date", "category.description", "category.quantity", "category.unitPrice", "category.tax", "category.subTotal", "category.total", "category.other"],
+                                "value": "category.id"
+                            }
+                        }
+                    }, {
+                        "type": "group",
+                        "components": {
+                            "label": {
+                                "type": "tokens",
+                                "text": "Quantity",
+                                "tokens": [{
+                                    "type": "token",
+                                    "bounds": {
+                                        "type": "bounds",
+                                        "pageNum": 1,
+                                        "topLeft": {
+                                            "x": 0.600392156862745,
+                                            "y": 0.33636363636363636
+                                        },
+                                        "bottomRight": {
+                                            "x": 0.66,
+                                            "y": 0.34939393939393937
+                                        }
+                                    },
+                                    "text": "Quantity",
+                                    "textWithWhitespace": "Quantity",
+                                    "pageTokenId": 55,
+                                    "tokenId": 55
+                                }],
+                                "bounds": {
+                                    "pageNum": 1,
+                                    "pageTokenIds": [55],
+                                    "tokenIds": [55],
+                                    "topLeft": {
+                                        "x": 0.600392156862745,
+                                        "y": 0.33636363636363636
+                                    },
+                                    "bottomRight": {
+                                        "x": 0.66,
+                                        "y": 0.34939393939393937
+                                    }
+                                }
+                            },
+                            "value": {
+                                "type": "list",
+                                "items": [{
+                                    "type": "tokens",
+                                    "text": "1",
+                                    "tokens": [{
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.6011764705882353,
+                                                "y": 0.3709090909090909
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.6062745098039216,
+                                                "y": 0.3809090909090909
+                                            }
+                                        },
+                                        "text": "1",
+                                        "textWithWhitespace": "1",
+                                        "pageTokenId": 61,
+                                        "tokenId": 61
+                                    }],
+                                    "bounds": {
+                                        "pageNum": 1,
+                                        "pageTokenIds": [61],
+                                        "tokenIds": [61],
+                                        "topLeft": {
+                                            "x": 0.6011764705882353,
+                                            "y": 0.3709090909090909
+                                        },
+                                        "bottomRight": {
+                                            "x": 0.6062745098039216,
+                                            "y": 0.3809090909090909
+                                        }
+                                    }
+                                }, {
+                                    "type": "tokens",
+                                    "text": "1",
+                                    "tokens": [{
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.6015686274509804,
+                                                "y": 0.3924242424242424
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.6058823529411764,
+                                                "y": 0.4024242424242424
+                                            }
+                                        },
+                                        "text": "1",
+                                        "textWithWhitespace": "1",
+                                        "pageTokenId": 75,
+                                        "tokenId": 75
+                                    }],
+                                    "bounds": {
+                                        "pageNum": 1,
+                                        "pageTokenIds": [75],
+                                        "tokenIds": [75],
+                                        "topLeft": {
+                                            "x": 0.6015686274509804,
+                                            "y": 0.3924242424242424
+                                        },
+                                        "bottomRight": {
+                                            "x": 0.6058823529411764,
+                                            "y": 0.4024242424242424
+                                        }
+                                    }
+                                }, {
+                                    "type": "tokens",
+                                    "text": "1",
+                                    "tokens": [{
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.6019607843137255,
+                                                "y": 0.41484848484848486
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.6054901960784314,
+                                                "y": 0.42424242424242425
+                                            }
+                                        },
+                                        "text": "1",
+                                        "textWithWhitespace": "1",
+                                        "pageTokenId": 86,
+                                        "tokenId": 86
+                                    }],
+                                    "bounds": {
+                                        "pageNum": 1,
+                                        "pageTokenIds": [86],
+                                        "tokenIds": [86],
+                                        "topLeft": {
+                                            "x": 0.6019607843137255,
+                                            "y": 0.41484848484848486
+                                        },
+                                        "bottomRight": {
+                                            "x": 0.6054901960784314,
+                                            "y": 0.42424242424242425
+                                        }
+                                    }
+                                }]
+                            },
+                            "category": {
+                                "type": "enum",
+                                "options": ["category.id", "category.date", "category.description", "category.quantity", "category.unitPrice", "category.tax", "category.subTotal", "category.total", "category.other"],
+                                "value": "category.quantity"
+                            }
+                        }
+                    }, {
+                        "type": "group",
+                        "components": {
+                            "label": {
+                                "type": "tokens",
+                                "text": "Rate",
+                                "tokens": [{
+                                    "type": "token",
+                                    "bounds": {
+                                        "type": "bounds",
+                                        "pageNum": 1,
+                                        "topLeft": {
+                                            "x": 0.768235294117647,
+                                            "y": 0.3372727272727273
+                                        },
+                                        "bottomRight": {
+                                            "x": 0.8,
+                                            "y": 0.3472727272727273
+                                        }
+                                    },
+                                    "text": "Rate",
+                                    "textWithWhitespace": "Rate",
+                                    "pageTokenId": 57,
+                                    "tokenId": 57
+                                }],
+                                "bounds": {
+                                    "pageNum": 1,
+                                    "pageTokenIds": [57],
+                                    "tokenIds": [57],
+                                    "topLeft": {
+                                        "x": 0.768235294117647,
+                                        "y": 0.3372727272727273
+                                    },
+                                    "bottomRight": {
+                                        "x": 0.8,
+                                        "y": 0.3472727272727273
+                                    }
+                                }
+                            },
+                            "value": {
+                                "type": "list",
+                                "items": [{
+                                    "type": "tokens",
+                                    "text": "$199.00",
+                                    "tokens": [{
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.7427450980392157,
+                                                "y": 0.3703030303030303
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.7505882352941177,
+                                                "y": 0.38242424242424244
+                                            }
+                                        },
+                                        "text": "$",
+                                        "textWithWhitespace": "$",
+                                        "pageTokenId": 63,
+                                        "tokenId": 63
+                                    }, {
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.7549019607843137,
+                                                "y": 0.3703030303030303
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.8007843137254902,
+                                                "y": 0.38242424242424244
+                                            }
+                                        },
+                                        "text": "199.00",
+                                        "textWithWhitespace": "199.00",
+                                        "pageTokenId": 64,
+                                        "tokenId": 64
+                                    }],
+                                    "bounds": {
+                                        "pageNum": 1,
+                                        "pageTokenIds": [63, 64],
+                                        "tokenIds": [63, 64],
+                                        "topLeft": {
+                                            "x": 0.7427450980392157,
+                                            "y": 0.3703030303030303
+                                        },
+                                        "bottomRight": {
+                                            "x": 0.8007843137254902,
+                                            "y": 0.38242424242424244
+                                        }
+                                    }
+                                }, {
+                                    "type": "tokens",
+                                    "text": "$76.00",
+                                    "tokens": [{
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.7529411764705882,
+                                                "y": 0.39212121212121215
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.7603921568627451,
+                                                "y": 0.40393939393939393
+                                            }
+                                        },
+                                        "text": "$",
+                                        "textWithWhitespace": "$",
+                                        "pageTokenId": 77,
+                                        "tokenId": 77
+                                    }, {
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.763921568627451,
+                                                "y": 0.39212121212121215
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.8003921568627451,
+                                                "y": 0.40393939393939393
+                                            }
+                                        },
+                                        "text": "76.00",
+                                        "textWithWhitespace": "76.00",
+                                        "pageTokenId": 78,
+                                        "tokenId": 78
+                                    }],
+                                    "bounds": {
+                                        "pageNum": 1,
+                                        "pageTokenIds": [77, 78],
+                                        "tokenIds": [77, 78],
+                                        "topLeft": {
+                                            "x": 0.7529411764705882,
+                                            "y": 0.39212121212121215
+                                        },
+                                        "bottomRight": {
+                                            "x": 0.8003921568627451,
+                                            "y": 0.40393939393939393
+                                        }
+                                    }
+                                }, {
+                                    "type": "tokens",
+                                    "text": "$55.00",
+                                    "tokens": [{
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.7529411764705882,
+                                                "y": 0.41393939393939394
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.7603921568627451,
+                                                "y": 0.4257575757575758
+                                            }
+                                        },
+                                        "text": "$",
+                                        "textWithWhitespace": "$",
+                                        "pageTokenId": 88,
+                                        "tokenId": 88
+                                    }, {
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.763921568627451,
+                                                "y": 0.41393939393939394
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.8003921568627451,
+                                                "y": 0.4257575757575758
+                                            }
+                                        },
+                                        "text": "55.00",
+                                        "textWithWhitespace": "55.00",
+                                        "pageTokenId": 89,
+                                        "tokenId": 89
+                                    }],
+                                    "bounds": {
+                                        "pageNum": 1,
+                                        "pageTokenIds": [88, 89],
+                                        "tokenIds": [88, 89],
+                                        "topLeft": {
+                                            "x": 0.7529411764705882,
+                                            "y": 0.41393939393939394
+                                        },
+                                        "bottomRight": {
+                                            "x": 0.8003921568627451,
+                                            "y": 0.4257575757575758
+                                        }
+                                    }
+                                }]
+                            },
+                            "category": {
+                                "type": "enum",
+                                "options": ["category.id", "category.date", "category.description", "category.quantity", "category.unitPrice", "category.tax", "category.subTotal", "category.total", "category.other"],
+                                "value": "category.unitPrice"
+                            }
+                        }
+                    }, {
+                        "type": "group",
+                        "components": {
+                            "label": {
+                                "type": "tokens",
+                                "text": "Amount",
+                                "tokens": [{
+                                    "type": "token",
+                                    "bounds": {
+                                        "type": "bounds",
+                                        "pageNum": 1,
+                                        "topLeft": {
+                                            "x": 0.8705882352941177,
+                                            "y": 0.3375757575757576
+                                        },
+                                        "bottomRight": {
+                                            "x": 0.9254901960784314,
+                                            "y": 0.3481818181818182
+                                        }
+                                    },
+                                    "text": "Amount",
+                                    "textWithWhitespace": "Amount",
+                                    "pageTokenId": 59,
+                                    "tokenId": 59
+                                }],
+                                "bounds": {
+                                    "pageNum": 1,
+                                    "pageTokenIds": [59],
+                                    "tokenIds": [59],
+                                    "topLeft": {
+                                        "x": 0.8705882352941177,
+                                        "y": 0.3375757575757576
+                                    },
+                                    "bottomRight": {
+                                        "x": 0.9254901960784314,
+                                        "y": 0.3481818181818182
+                                    }
+                                }
+                            },
+                            "value": {
+                                "type": "list",
+                                "items": [{
+                                    "type": "tokens",
+                                    "text": "$199.00",
+                                    "tokens": [{
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.8682352941176471,
+                                                "y": 0.3706060606060606
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.876078431372549,
+                                                "y": 0.38303030303030305
+                                            }
+                                        },
+                                        "text": "$",
+                                        "textWithWhitespace": "$",
+                                        "pageTokenId": 66,
+                                        "tokenId": 66
+                                    }, {
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.8803921568627451,
+                                                "y": 0.3706060606060606
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.9262745098039216,
+                                                "y": 0.38303030303030305
+                                            }
+                                        },
+                                        "text": "199.00",
+                                        "textWithWhitespace": "199.00",
+                                        "pageTokenId": 67,
+                                        "tokenId": 67
+                                    }],
+                                    "bounds": {
+                                        "pageNum": 1,
+                                        "pageTokenIds": [66, 67],
+                                        "tokenIds": [66, 67],
+                                        "topLeft": {
+                                            "x": 0.8682352941176471,
+                                            "y": 0.3706060606060606
+                                        },
+                                        "bottomRight": {
+                                            "x": 0.9262745098039216,
+                                            "y": 0.38303030303030305
+                                        }
+                                    }
+                                }, {
+                                    "type": "tokens",
+                                    "text": "$76.00",
+                                    "tokens": [{
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.8784313725490196,
+                                                "y": 0.39212121212121215
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.8858823529411765,
+                                                "y": 0.40393939393939393
+                                            }
+                                        },
+                                        "text": "$",
+                                        "textWithWhitespace": "$",
+                                        "pageTokenId": 80,
+                                        "tokenId": 80
+                                    }, {
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.8894117647058823,
+                                                "y": 0.39212121212121215
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.9258823529411765,
+                                                "y": 0.40393939393939393
+                                            }
+                                        },
+                                        "text": "76.00",
+                                        "textWithWhitespace": "76.00",
+                                        "pageTokenId": 81,
+                                        "tokenId": 81
+                                    }],
+                                    "bounds": {
+                                        "pageNum": 1,
+                                        "pageTokenIds": [80, 81],
+                                        "tokenIds": [80, 81],
+                                        "topLeft": {
+                                            "x": 0.8784313725490196,
+                                            "y": 0.39212121212121215
+                                        },
+                                        "bottomRight": {
+                                            "x": 0.9258823529411765,
+                                            "y": 0.40393939393939393
+                                        }
+                                    }
+                                }, {
+                                    "type": "tokens",
+                                    "text": "$55.00",
+                                    "tokens": [{
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.8784313725490196,
+                                                "y": 0.41393939393939394
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.8858823529411765,
+                                                "y": 0.4257575757575758
+                                            }
+                                        },
+                                        "text": "$",
+                                        "textWithWhitespace": "$",
+                                        "pageTokenId": 91,
+                                        "tokenId": 91
+                                    }, {
+                                        "type": "token",
+                                        "bounds": {
+                                            "type": "bounds",
+                                            "pageNum": 1,
+                                            "topLeft": {
+                                                "x": 0.8894117647058823,
+                                                "y": 0.41393939393939394
+                                            },
+                                            "bottomRight": {
+                                                "x": 0.9258823529411765,
+                                                "y": 0.4257575757575758
+                                            }
+                                        },
+                                        "text": "55.00",
+                                        "textWithWhitespace": "55.00",
+                                        "pageTokenId": 92,
+                                        "tokenId": 92
+                                    }],
+                                    "bounds": {
+                                        "pageNum": 1,
+                                        "pageTokenIds": [91, 92],
+                                        "tokenIds": [91, 92],
+                                        "topLeft": {
+                                            "x": 0.8784313725490196,
+                                            "y": 0.41393939393939394
+                                        },
+                                        "bottomRight": {
+                                            "x": 0.9258823529411765,
+                                            "y": 0.4257575757575758
+                                        }
+                                    }
+                                }]
+                            },
+                            "category": {
+                                "type": "enum",
+                                "options": ["category.id", "category.date", "category.description", "category.quantity", "category.unitPrice", "category.tax", "category.subTotal", "category.total", "category.other"],
+                                "value": "category.total"
+                            }
+                        }
+                    }]
+                }
+            }
+        }]
+    },
+    "issuer.VATIN": null,
+    "issuer.companyRegistrationNo": null,
+    "issuer.ABN": "16627246039",
+    "bpay.crn": null,
+    "bank.bsb": "919830",
+    "recipient.ABN": null,
+    "bank.referenceToQuote": null,
+    "invoice.currencyCode": {
+        "invoice.currencyCode.AUD": {
+            "value": true,
+            "confidence": 0.92
+        },
+        "invoice.currencyCode.CAD": {
+            "value": false,
+            "confidence": 0
+        },
+        "invoice.currencyCode.EUR": {
+            "value": false,
+            "confidence": 0
+        },
+        "invoice.currencyCode.GBP": {
+            "value": false,
+            "confidence": 0.01
+        },
+        "invoice.currencyCode.MYR": {
+            "value": false,
+            "confidence": 0
+        },
+        "invoice.currencyCode.NZD": {
+            "value": false,
+            "confidence": 0.07
+        },
+        "invoice.currencyCode.Other": {
+            "value": false,
+            "confidence": 0
+        },
+        "invoice.currencyCode.SGD": {
+            "value": false,
+            "confidence": 0
+        },
+        "invoice.currencyCode.USD": {
+            "value": false,
+            "confidence": 0
+        },
+        "invoice.currencyCode.Unknown": {
+            "value": false,
+            "confidence": 0
+        },
+        "invoice.currencyCode.ZAR": {
+            "value": false,
+            "confidence": 0
+        }
+    },
+    "invoice.amountPaid": null,
+    "issuer.address": "100 Mega St, Chippendale NSW 2008",
+    "recipient.serviceAddressComponents": {
+        "type": "geocode",
+        "floorNo": "",
+        "postBox": "",
+        "subpremise": "",
+        "premise": "",
+        "streetNumber": "",
+        "streetName": "",
+        "suburb": "Chippendale",
+        "state": "NSW",
+        "postCode": "2008",
+        "country": "AU",
+        "error": false,
+        "partial_match": true,
+        "formatted_address": "Chippendale NSW 2008, Australia"
+    },
+    "invoice.vat": "33.00",
+    "issuer.GSTN": null,
+    "invoice.total": "363.00",
+    "document.type": {
+        "bank": {
+            "value": false,
+            "confidence": 0.6328516947782217
+        },
+        "bill": {
+            "value": false,
+            "confidence": 0.8624376071095536
+        },
+        "bpay": {
+            "value": false,
+            "confidence": 0.7859694313054328
+        },
+        "deft": {
+            "value": false,
+            "confidence": 0.9014397794598967
+        },
+        "document": {
+            "value": true,
+            "confidence": 1
+        },
+        "electricity": {
+            "value": false,
+            "confidence": 0.9562126346790429
+        },
+        "generic": {
+            "value": true,
+            "confidence": 1
+        },
+        "insurance": {
+            "value": false,
+            "confidence": 0.9594610016176175
+        },
+        "invoice": {
+            "value": true,
+            "confidence": 0.5710816840636134
+        },
+        "issuer": {
+            "value": true,
+            "confidence": 0.5969165945257409
+        },
+        "ndis": {
+            "value": false,
+            "confidence": 0.6802127233593273
+        },
+        "paystub": {
+            "value": false,
+            "confidence": 0.9539421587631299
+        },
+        "penalty": {
+            "value": false,
+            "confidence": 0.955961882008785
+        },
+        "property": {
+            "value": false,
+            "confidence": 0.6952792973486606
+        },
+        "recall": {
+            "value": false,
+            "confidence": 0.9594566075980537
+        },
+        "recipient": {
+            "value": false,
+            "confidence": 0.5536674834474835
+        },
+        "statement": {
+            "value": true,
+            "confidence": 0.8013430393495206
+        },
+        "toll": {
+            "value": false,
+            "confidence": 0.9598648631373181
+        },
+        "vehicle": {
+            "value": false,
+            "confidence": 0.9049327575562445
+        }
+    },
+    "bank.accountNo": "03306508",
+    "recipient.address": "100 Mega St, Chippendale NSW 2008",
+    "issuer.category": {
+        "issuer.category.energy": {
+            "value": false,
+            "confidence": 0
+        },
+        "issuer.category.maintenance": {
+            "value": true,
+            "confidence": 0.9
+        },
+        "issuer.category.other": {
+            "value": false,
+            "confidence": 0.1
+        },
+        "issuer.category.rates": {
+            "value": false,
+            "confidence": 0
+        },
+        "issuer.category.strata": {
+            "value": false,
+            "confidence": 0
+        },
+        "issuer.category.telephone": {
+            "value": false,
+            "confidence": 0
+        },
+        "issuer.category.water": {
+            "value": false,
+            "confidence": 0
+        }
+    },
+    "invoice.expenseCategory": {
+        "invoice.expenseCategory.airfare": {
+            "value": false,
+            "confidence": 0
+        },
+        "invoice.expenseCategory.carParking": {
+            "value": false,
+            "confidence": 0.1
+        },
+        "invoice.expenseCategory.carRental": {
+            "value": false,
+            "confidence": 0
+        },
+        "invoice.expenseCategory.fuelStation": {
+            "value": false,
+            "confidence": 0.01
+        },
+        "invoice.expenseCategory.generalRetail": {
+            "value": false,
+            "confidence": 0.12
+        },
+        "invoice.expenseCategory.hotel": {
+            "value": false,
+            "confidence": 0
+        },
+        "invoice.expenseCategory.other": {
+            "value": false,
+            "confidence": 0.17
+        },
+        "invoice.expenseCategory.restaurant": {
+            "value": true,
+            "confidence": 0.57
+        },
+        "invoice.expenseCategory.taxi": {
+            "value": false,
+            "confidence": 0.02
+        },
+        "invoice.expenseCategory.tollRoad": {
+            "value": false,
+            "confidence": 0
+        },
+        "invoice.expenseCategory.transport": {
+            "value": false,
+            "confidence": 0.01
+        }
+    },
+    "document.date": "2019-08-01",
+    "invoice.dueDate": "2019-08-31",
+    "invoice.paymentDate": null,
+    "recipient.billingAddressComponents": {
+        "type": "geocode",
+        "floorNo": "",
+        "postBox": "",
+        "subpremise": "",
+        "premise": "",
+        "streetNumber": "",
+        "streetName": "",
+        "suburb": "Chippendale",
+        "state": "NSW",
+        "postCode": "2008",
+        "country": "AU",
+        "error": false,
+        "partial_match": true,
+        "formatted_address": "Chippendale NSW 2008, Australia"
+    },
+    "document.supplierGSTN": null,
+    "recipient.contactPerson": null,
+    "bpay.billerCode": null,
+    "issuer.ABRLookup": {
+        "matched": true,
+        "registeredForGST": true,
+        "names": {
+            "main_trading_names": [],
+            "other_trading_names": [],
+            "organization_names": ["SYPHT PTY LTD"]
+        }
+    },
+    "invoice.amountDue": "363.00",
+    "recipient.VATIN": null,
+    "invoice.gst": "33.00",
+    "invoice.remittanceEmail": null
+}

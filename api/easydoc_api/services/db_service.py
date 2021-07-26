@@ -1,13 +1,12 @@
-from collections import namedtuple
-from typing import List
 from datetime import date
+from typing import List
 
-from sqlalchemy import create_engine, or_, func
+from sqlalchemy import create_engine
 from sqlalchemy.engine import Engine
-from sqlalchemy.orm import sessionmaker, Session
+from sqlalchemy.orm import sessionmaker
 
-from easydoc_api.models.models import InvoiceInfo, InvoiceItem
 from easydoc_api.models.db_models import InvoiceInfoOrm, InvoiceItemOrm, ExpenseByTime
+from easydoc_api.models.models import InvoiceInfo, InvoiceItem
 
 
 class DBService:
@@ -28,6 +27,9 @@ class DBService:
             session.commit()
 
     def save_invoice_items(self, invoice_items: List[InvoiceItem]):
+        if not invoice_items:
+            return
+
         with sessionmaker(self.engine)() as session:
             for item in invoice_items:
                 session.add(InvoiceItemOrm(**item.dict()))

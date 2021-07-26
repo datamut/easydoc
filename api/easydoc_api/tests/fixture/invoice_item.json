@@ -1,0 +1,331 @@
+{
+    "invoice.lineitems": [{
+        "types": [{
+            "score": 1,
+            "type": "sypht.invoice.lineitems.id"
+        }, {
+            "score": 1,
+            "type": "sypht.invoice.lineitems.quantity"
+        }, {
+            "score": 1,
+            "type": "sypht.invoice.lineitems.unitPrice"
+        }, {
+            "score": 1,
+            "type": "sypht.invoice.lineitems.total"
+        }],
+        "headers": [{
+            "type": "table.label",
+            "norm": "item",
+            "text": "Item",
+            "tokens": ["Item"],
+            "page_idx": 0,
+            "bounds": {
+                "pageNum": 1,
+                "pageTokenIds": [53],
+                "tokenIds": [53],
+                "topLeft": {
+                    "x": 0.07490196078431373,
+                    "y": 0.3375757575757576
+                },
+                "bottomRight": {
+                    "x": 0.10352941176470588,
+                    "y": 0.3481818181818182
+                }
+            },
+            "id": "table.label.head:item:0:53"
+        }, {
+            "type": "table.label",
+            "norm": "quantity",
+            "text": "Quantity",
+            "tokens": ["Quantity"],
+            "page_idx": 0,
+            "bounds": {
+                "pageNum": 1,
+                "pageTokenIds": [55],
+                "tokenIds": [55],
+                "topLeft": {
+                    "x": 0.600392156862745,
+                    "y": 0.33636363636363636
+                },
+                "bottomRight": {
+                    "x": 0.66,
+                    "y": 0.34939393939393937
+                }
+            },
+            "id": "table.label.head:quantity:0:55"
+        }, {
+            "type": "table.label",
+            "norm": "rate",
+            "text": "Rate",
+            "tokens": ["Rate"],
+            "page_idx": 0,
+            "bounds": {
+                "pageNum": 1,
+                "pageTokenIds": [57],
+                "tokenIds": [57],
+                "topLeft": {
+                    "x": 0.768235294117647,
+                    "y": 0.3372727272727273
+                },
+                "bottomRight": {
+                    "x": 0.8,
+                    "y": 0.3472727272727273
+                }
+            },
+            "id": "table.label.head:rate:0:57"
+        }, {
+            "type": "table.label",
+            "norm": "amount",
+            "text": "Amount",
+            "tokens": ["Amount"],
+            "page_idx": 0,
+            "bounds": {
+                "pageNum": 1,
+                "pageTokenIds": [59],
+                "tokenIds": [59],
+                "topLeft": {
+                    "x": 0.8705882352941177,
+                    "y": 0.3375757575757576
+                },
+                "bottomRight": {
+                    "x": 0.9254901960784314,
+                    "y": 0.3481818181818182
+                }
+            },
+            "id": "table.label.head:amount:0:59"
+        }],
+        "cells": [
+            [{
+                "type": "table.value",
+                "norm": "banner_design",
+                "text": "Banner design",
+                "tokens": ["Banner", "design"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [69, 70],
+                    "tokenIds": [69, 70],
+                    "topLeft": {
+                        "x": 0.07411764705882352,
+                        "y": 0.36848484848484847
+                    },
+                    "bottomRight": {
+                        "x": 0.18549019607843137,
+                        "y": 0.38242424242424244
+                    }
+                }
+            }, {
+                "type": "table.value",
+                "norm": "1",
+                "text": "1",
+                "tokens": ["1"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [61],
+                    "tokenIds": [61],
+                    "topLeft": {
+                        "x": 0.6011764705882353,
+                        "y": 0.3709090909090909
+                    },
+                    "bottomRight": {
+                        "x": 0.6062745098039216,
+                        "y": 0.3809090909090909
+                    }
+                }
+            }, {
+                "type": "table.value",
+                "norm": "$_199.00",
+                "text": "$199.00",
+                "tokens": ["$", "199.00"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [63, 64],
+                    "tokenIds": [63, 64],
+                    "topLeft": {
+                        "x": 0.7427450980392157,
+                        "y": 0.3703030303030303
+                    },
+                    "bottomRight": {
+                        "x": 0.8007843137254902,
+                        "y": 0.38242424242424244
+                    }
+                }
+            }, {
+                "type": "table.value",
+                "norm": "199.00",
+                "text": "199.00",
+                "tokens": ["199.00"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [66, 67],
+                    "tokenIds": [66, 67],
+                    "topLeft": {
+                        "x": 0.8682352941176471,
+                        "y": 0.3706060606060606
+                    },
+                    "bottomRight": {
+                        "x": 0.9262745098039216,
+                        "y": 0.38303030303030305
+                    }
+                }
+            }],
+            [{
+                "type": "table.value",
+                "norm": "banner_print",
+                "text": "Banner print",
+                "tokens": ["Banner", "print"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [72, 73],
+                    "tokenIds": [72, 73],
+                    "topLeft": {
+                        "x": 0.07411764705882352,
+                        "y": 0.3896969696969697
+                    },
+                    "bottomRight": {
+                        "x": 0.16980392156862745,
+                        "y": 0.4033333333333333
+                    }
+                }
+            }, {
+                "type": "table.value",
+                "norm": "1",
+                "text": "1",
+                "tokens": ["1"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [75],
+                    "tokenIds": [75],
+                    "topLeft": {
+                        "x": 0.6015686274509804,
+                        "y": 0.3924242424242424
+                    },
+                    "bottomRight": {
+                        "x": 0.6058823529411764,
+                        "y": 0.4024242424242424
+                    }
+                }
+            }, {
+                "type": "table.value",
+                "norm": "$_76.00",
+                "text": "$76.00",
+                "tokens": ["$", "76.00"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [77, 78],
+                    "tokenIds": [77, 78],
+                    "topLeft": {
+                        "x": 0.7529411764705882,
+                        "y": 0.39212121212121215
+                    },
+                    "bottomRight": {
+                        "x": 0.8003921568627451,
+                        "y": 0.40393939393939393
+                    }
+                }
+            }, {
+                "type": "table.value",
+                "norm": "$_76.00",
+                "text": "$76.00",
+                "tokens": ["$", "76.00"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [80, 81],
+                    "tokenIds": [80, 81],
+                    "topLeft": {
+                        "x": 0.8784313725490196,
+                        "y": 0.39212121212121215
+                    },
+                    "bottomRight": {
+                        "x": 0.9258823529411765,
+                        "y": 0.40393939393939393
+                    }
+                }
+            }],
+            [{
+                "type": "table.value",
+                "norm": "expedited_delivery",
+                "text": "Expedited delivery",
+                "tokens": ["Expedited", "delivery"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [83, 84],
+                    "tokenIds": [83, 84],
+                    "topLeft": {
+                        "x": 0.07450980392156863,
+                        "y": 0.41363636363636364
+                    },
+                    "bottomRight": {
+                        "x": 0.2164705882352941,
+                        "y": 0.42757575757575755
+                    }
+                }
+            }, {
+                "type": "table.value",
+                "norm": "1",
+                "text": "1",
+                "tokens": ["1"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [86],
+                    "tokenIds": [86],
+                    "topLeft": {
+                        "x": 0.6019607843137255,
+                        "y": 0.41484848484848486
+                    },
+                    "bottomRight": {
+                        "x": 0.6054901960784314,
+                        "y": 0.42424242424242425
+                    }
+                }
+            }, {
+                "type": "table.value",
+                "norm": "$_55.00",
+                "text": "$55.00",
+                "tokens": ["$", "55.00"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [88, 89],
+                    "tokenIds": [88, 89],
+                    "topLeft": {
+                        "x": 0.7529411764705882,
+                        "y": 0.41393939393939394
+                    },
+                    "bottomRight": {
+                        "x": 0.8003921568627451,
+                        "y": 0.4257575757575758
+                    }
+                }
+            }, {
+                "type": "table.value",
+                "norm": "$_55.00",
+                "text": "$55.00",
+                "tokens": ["$", "55.00"],
+                "page_idx": 0,
+                "bounds": {
+                    "pageNum": 1,
+                    "pageTokenIds": [91, 92],
+                    "tokenIds": [91, 92],
+                    "topLeft": {
+                        "x": 0.8784313725490196,
+                        "y": 0.41393939393939394
+                    },
+                    "bottomRight": {
+                        "x": 0.9258823529411765,
+                        "y": 0.4257575757575758
+                    }
+                }
+            }]
+        ]
+    }]
+}
